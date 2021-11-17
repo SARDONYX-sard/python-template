@@ -16,7 +16,7 @@
 
 ### Requirements
 
-- python 3.10 or higher
+- python 3.8 &lt; 3.10
 - poetry(package maneger):
 
 If you do not have `poetry` installed, you can install it with the following command.
