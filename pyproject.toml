@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = "poetry template"
+authors = ["SARDONYX-sard <68905624+SARDONYX-sard@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^4.0.1"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
