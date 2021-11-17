@@ -6,15 +6,12 @@
 
 - [Python template](#python-template)
   - [Table of Contents](#table-of-contents)
-  - [Development](#development)
-    - [Requirements](#requirements)
-    - [Make usage](#make-usage)
+  - [Requirements](#requirements)
+  - [Make usage](#make-usage)
 
 <!-- /TOC -->
 
-## Development
-
-### Requirements
+## Requirements
 
 - python 3.8 &lt; 3.10
 - poetry(package maneger):
@@ -33,7 +30,7 @@ conda install -c conda-forge poetry
 
 More info is [here.](https://raw.githubusercontent.com/python-poetry/poetry/master/install)
 
-### Make usage
+## Make usage
 
 | Command        |               Description              |
 | :------------- | :------------------------------------: |
