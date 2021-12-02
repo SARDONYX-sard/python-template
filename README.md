@@ -8,13 +8,15 @@
   - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
   - [Make usage](#make-usage)
+  - [Development](#development)
+  - [License](#license)
 
 <!-- /TOC -->
 
 ## Requirements
 
 - python 3.8 &lt; 3.10
-- poetry(package maneger):
+- poetry(package manager):
 
 If you do not have `poetry` installed, you can install it with the following command.
 
@@ -42,3 +44,11 @@ More info is [here.](https://raw.githubusercontent.com/python-poetry/poetry/mast
 
 If you are using windows, you can install the `make` command [here](http://gnuwin32.sourceforge.net/packages/make.htm).
 (Click the `Setup` button at the top.)
+
+## Development
+
+- Please see... [Contributing.md](.github\CONTRIBUTING.md)
+
+## License
+
+Unlicense
