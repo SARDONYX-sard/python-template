@@ -6,7 +6,7 @@
     {
       "label": "poetry run",
       "type": "shell",
-      "command": "poetry run python src/run.py"
+      "command": "poetry run python src/main.py"
     },
     {
       "label": "poetry install",
@@ -16,7 +16,12 @@
     {
       "label": "poetry lint",
       "type": "shell",
-      "command": "poetry run flake8 ./src ./tests --count --select=E9,F63,F7,F82 --show-source --statistics;poetry run flake8 ./src ./tests  --count --exit-zero --max-complexity=10 --max-line-length=100 --statistics"
+      "command": "poetry run pysen run lint"
+    },
+    {
+      "label": "poetry lint-fix",
+      "type": "shell",
+      "command": "poetry run pysen run format && poetry run pysen run lint"
     },
     {
       "label": "poetry test",
