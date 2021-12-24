@@ -1,5 +1,7 @@
 # Guidelines for contribution
 
+English | [日本語](./i18n/jp/CONTRIBUTING.md)
+
 ## Table of Contents
 
 - [Guidelines for contribution](#guidelines-for-contribution)
@@ -16,17 +18,21 @@
 
 ## Language
 
-Git branch names, commit messages, and GitHub pull requests must be written in English so that developers around the world can read them.
+Git branch names, commit messages, and GitHub pull requests must be written in
+English so that developers around the world can read them.
 
 ## Git branch flow
 
-- The [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) is used for the development of this project.
+- The [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) is used
+  for the development of this project.
 
 - Anything in the `main` branch is deployable.
 
-- To work on something new, you create a branch and add `feature/` as a prefix to its name.
+- To work on something new, you create a branch and add `feature/` as a prefix
+  to its name.
 
-- The branch name should start with a verb and be as concise and clear as possible.
+- The branch name should start with a verb and be as concise and clear as
+  possible.
 
 ```bash
 # Example
@@ -40,8 +46,8 @@ See here for more details.
 
 ## Git commit message conventions
 
-The commit format follows [Conventional Commits](https://www.conventionalcommits.org/).
-Here's an overview
+The commit format follows
+[Conventional Commits](https://www.conventionalcommits.org/). Here's an overview
 
 ```bash
 # Format.
@@ -54,7 +60,8 @@ Here's an overview
 
 ### `<type>`
 
-There is only one purpose for a commit, and that is to add the following commit type to the beginning of the first line of the commit message Add the message.
+There is only one purpose for a commit, and that is to add the following commit
+type to the beginning of the first line of the commit message Add the message.
 
 |  `<type>`  | usage                                                                                                 |
 | :--------: | :---------------------------------------------------------------------------------------------------- |

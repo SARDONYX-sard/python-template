@@ -1,12 +1,14 @@
 # 貢献についての指針
 
+[English](../../CONTRIBUTING.md) | 日本語
+
 ## 目次
 
 - [貢献についての指針](#貢献についての指針)
   - [目次](#目次)
   - [言語](#言語)
-  - [Git ブランチフロー](#gitブランチフロー)
-  - [Git コミットメッセージ規約](#gitコミットメッセージ規約)
+  - [Git ブランチフロー](#git-ブランチフロー)
+  - [Git コミットメッセージ規約](#git-コミットメッセージ規約)
     - [`<type>`](#type)
     - [`[optional scope]`](#optional-scope)
     - [`<description>`](#description)
