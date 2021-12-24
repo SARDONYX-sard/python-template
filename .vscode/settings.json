@@ -1,3 +1,5 @@
+// refference: https://qiita.com/homoluctus/items/dca21cf6b2eff858672b
+
 {
   // ---------------------------------------------------------------------------------------------------------------------------
   // Editor
@@ -29,7 +31,6 @@
   "files.associations": {
     ".env": "dotenv",
     ".envpath": "shellscript",
-    ".eslintignore": "gitignore",
     ".gitignore": "ignore",
     "*.html": "html",
     "*.json": "jsonc",
@@ -50,7 +51,7 @@
   // Lint, Format Setings
   // ---------------------------------------------------------------------------------------------------------------------------
   "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
-  "python.formatting.provider": "autopep8",
+  "python.formatting.provider": "black",
   "python.languageServer": "Default",
   "python.linting.flake8Args": [
     "--ignore=W293, W504",
@@ -59,7 +60,10 @@
   ],
   "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
-  "python.linting.pycodestyleEnabled": false,
-  "python.linting.pylintEnabled": false,
-  "python.pythonPath": "${workspaceRoot}/.venv/bin/python",
+  "python.linting.pycodestyleEnabled": true,
+  "python.pythonPath": "${workspaceRoot}/.venv/Script/python",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.linting.mypyEnabled": true,
+  "python.linting.enabled": true,
+  "cSpell.words": ["pycache", "pysen"]
 }
