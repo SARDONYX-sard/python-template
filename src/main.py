@@ -1,6 +1,10 @@
-import sys
-from utils.operator import add
+"""
+main function
+"""
 
+import sys
+
+from .utils.operator import add
 
 if __name__ == "__main__":
     args = sys.argv
