@@ -15,7 +15,7 @@
 
 ## Requirements
 
-- python 3.7 &lt; 3.8
+- python (3.7 or 3.8)
 - poetry(package manager):
 
 If you do not have `poetry` installed, you can install it with the following
@@ -36,14 +36,15 @@ More info is
 
 ## Make usage
 
-| Command        | Description                            |
-| :------------- | :------------------------------------- |
-| `make start`   | Run python file(default: `src/run.py`) |
-| `make install` | Install dependencies (For dev)         |
-| `make install` | Install dependencies (For prod)        |
-| `make test`    | Test with pytest                       |
-| `make lint`    | Lint with flake8                       |
-| `make clean`   | Remove `__pycache__` files             |
+| Command            | Description                            |
+| :----------------- | :------------------------------------- |
+| `make start`       | Run python file(default: `src/run.py`) |
+| `make install-dev` | Install dependencies (For dev)         |
+| `make install`     | Install dependencies (For prod)        |
+| `make test`        | Test with pytest                       |
+| `make lint`        | Lint with pysen                        |
+| `make lint-fix`    | Lint fix with pysen                    |
+| `make clean`       | Remove `__pycache__` files             |
 
 If you are using windows, you can install the `make` command
 [here](http://gnuwin32.sourceforge.net/packages/make.htm). (Click the `Setup`
