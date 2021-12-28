@@ -15,7 +15,7 @@
 
 ## Requirements
 
-- python (3.7 or 3.8)
+- python (3.7 or 3.8.x)
 - poetry(package manager):
 
 If you do not have `poetry` installed, you can install it with the following
