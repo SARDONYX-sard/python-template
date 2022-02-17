@@ -1,8 +1,26 @@
 {
   "recommendations": [
+    "almenon.arepl",
+    "bonprosoft.pysen-vscode",
+    "bungcip.better-toml",
+    "dongli.python-preview",
+    "donjayamanne.python-environment-manager",
+    "donjayamanne.python-extension-pack",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "kevinrose.vsc-python-indent",
+    "mgesbert.python-path",
+    "ms-ceintl.vscode-language-pack-ja",
     "ms-python.python",
     "ms-python.vscode-pylance",
+    "mutantdino.resourcemonitor",
+    "ninoseki.vscode-pylens",
+    "njpwerner.autodocstring",
     "njqdev.vscode-python-typehint",
-    "spmeesseman.vscode-taskexplorer"
+    "oderwat.indent-rainbow",
+    "spmeesseman.vscode-taskexplorer",
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml",
+    "visualstudioexptteam.vscodeintellicode"
   ]
 }

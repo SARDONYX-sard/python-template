@@ -1,69 +1,56 @@
-// refference: https://qiita.com/homoluctus/items/dca21cf6b2eff858672b
-
 {
-  // ---------------------------------------------------------------------------------------------------------------------------
-  // Editor
-  // ---------------------------------------------------------------------------------------------------------------------------
-  // Inserts snippets when their prefix matches.
-  // Works best when 'quickSuggestions' aren't enabled.
-  "editor.tabCompletion": "on",
-  // Columns at which to show vertical rulers.
-  "editor.rulers": [100],
-
-  // ---------------------------------------------------------------------------------------------------------------------------
-  // Files
-  // ---------------------------------------------------------------------------------------------------------------------------
-  // Configures glob patterns for excluding files and folders.
-  "files.exclude": {
-    "**/__pycache__": true,
-    "**/.idea": true
-  },
-
-  // Configures glob patterns of file paths to exclude from file watching.
-  // Changing this setting requires a restart. When you experience Code consuming
-  // lots of cpu time on startup, you can exclude large folders to reduce the initial load.
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/__pycache__": true,
-    "**/.idea": true
-  },
-
-  "files.associations": {
-    ".env": "dotenv",
-    ".envpath": "shellscript",
-    ".gitignore": "ignore",
-    "*.html": "html",
-    "*.json": "jsonc",
-    "*.md": "markdown",
-    "*.txt": "txt",
-    "*.spec": "python"
-  },
-
-  // ---------------------------------------------------------------------------------------------------------------------------
-  // Language Setings
-  // ---------------------------------------------------------------------------------------------------------------------------
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
     "editor.formatOnType": false,
     "editor.tabSize": 4
   },
-  // ---------------------------------------------------------------------------------------------------------------------------
-  // Lint, Format Setings
-  // ---------------------------------------------------------------------------------------------------------------------------
-  "python.formatting.autopep8Args": ["--aggressive", "--aggressive"],
-  "python.formatting.provider": "black",
-  "python.languageServer": "Default",
-  "python.linting.flake8Args": [
-    "--ignore=W293, W504",
-    "--max-line-length=150",
-    "--max-complexity=20"
+  "cSpell.words": [
+    "autopep",
+    "conda",
+    "devcontainer",
+    "mypy",
+    "noprofile",
+    "pycache",
+    "pycodestyle",
+    "pydocstyle",
+    "pylint",
+    "pysen",
+    "pytest",
+    "wslg",
+    "yapf"
   ],
+  "editor.rulers": [80],
+  "editor.tabCompletion": "on",
+  "files.associations": {
+    ".env": "dotenv",
+    ".gitignore": "ignore",
+    "*.json": "jsonc",
+    "*.md": "markdown",
+    "*.spec": "python"
+  },
+  "files.exclude": {
+    "**/.idea": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.idea": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.venv": true,
+    "**/__pycache__": true
+  },
+  "python.defaultInterpreterPath": "/usr/local/bin/python",
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
   "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
-  "python.linting.pycodestyleEnabled": true,
-  "python.pythonPath": "${workspaceRoot}/.venv/Script/python",
-  "python.envFile": "${workspaceFolder}/.env",
   "python.linting.mypyEnabled": true,
-  "python.linting.enabled": true,
-  "cSpell.words": ["pycache", "pysen"]
+  "python.linting.pycodestyleEnabled": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/dependabot-2.0.json": "file:///d%3A/Programming/Python/python-template/.github/workflows/dependabot.yml"
+  }
 }

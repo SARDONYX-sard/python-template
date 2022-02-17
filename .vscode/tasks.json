@@ -4,27 +4,32 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "poetry run",
+      "label": "start",
       "type": "shell",
       "command": "poetry run python src/main.py"
     },
     {
-      "label": "poetry install",
+      "label": "development",
       "type": "shell",
-      "command": "poetry install --no-interaction"
+      "command": "poetry install"
     },
     {
-      "label": "poetry lint",
+      "label": "production",
+      "type": "shell",
+      "command": "poetry install --no-dev"
+    },
+    {
+      "label": "lint",
       "type": "shell",
       "command": "poetry run pysen run lint"
     },
     {
-      "label": "poetry lint-fix",
+      "label": "lint:fix",
       "type": "shell",
       "command": "poetry run pysen run format && poetry run pysen run lint"
     },
     {
-      "label": "poetry test",
+      "label": "test",
       "type": "shell",
       "command": "poetry run python -m unittest"
     }
