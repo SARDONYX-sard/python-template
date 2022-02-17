@@ -4,16 +4,26 @@ version = "0.1.0"
 description = "python template"
 authors = ["example <example.example@example.com>"]
 license = "Unlicense"
+readme = "README.md"
+homepage = "https://github.com/SARDONYX-sard/python-template"
+repository = "https://github.com/SARDONYX-sard/python-template"
+include = ["LICENSE"]
+keywords = ["Python", "Template"]
 
 [tool.poetry.dependencies]
 python = ">=3.8 <3.9"
-python-dotenv = { extras = ["cli"], version = "^0.19.2" }
+python-dotenv = { version = "^0.19.2", extras = ["cli"] }
+typer = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
+GitPython = "^3.1.26"
+mkdocs = "^1.2.3"
+pre-commit = "^2.17.0"
 pysen = { version = "^0.10.1", extras = ["lint"] }
-pytest = "^6.2.5"
-pytest-mock = "^3.6.1"
+pytest = "^7.0.1"
+pytest-mock = "^3.7.0"
 pytest-sugar = "^0.9.4"
+python-markdown-math = "^0.8"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
@@ -29,7 +39,11 @@ enable_flake8 = true
 enable_isort = true
 enable_mypy = true
 mypy_preset = "strict"
-line_length = 100
-py_version = "py37"
+line_length = 80
+py_version = "py38"
+
 [[tool.pysen.lint.mypy_targets]]
-paths = ["."]
+paths = ["./src/", "tests/"]
+
+[tool.pysen.lint.source]
+excludes = ["build/", "dist/", "examples/", ".tox"]
