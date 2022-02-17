@@ -52,5 +52,6 @@
   "python.linting.pycodestyleEnabled": true,
   "yaml.schemas": {
     "https://json.schemastore.org/dependabot-2.0.json": "file:///d%3A/Programming/Python/python-template/.github/workflows/dependabot.yml"
-  }
+  },
+  "conventionalCommits.scopes": ["vscode"]
 }

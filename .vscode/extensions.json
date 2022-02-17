@@ -21,6 +21,7 @@
     "spmeesseman.vscode-taskexplorer",
     "streetsidesoftware.code-spell-checker",
     "tamasfe.even-better-toml",
-    "visualstudioexptteam.vscodeintellicode"
+    "visualstudioexptteam.vscodeintellicode",
+    "vivaxy.vscode-conventional-commits"
   ]
 }
