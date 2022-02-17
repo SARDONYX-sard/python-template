@@ -2,16 +2,13 @@
 
 ## Table of Contents
 
-<!-- TOC depthFrom:2 -->
-
 - [Python template](#python-template)
   - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
+  - [Quick start](#quick-start)
   - [Make usage](#make-usage)
   - [Development](#development)
   - [License](#license)
-
-<!-- /TOC -->
 
 ## Requirements
 
@@ -33,6 +30,27 @@ conda install -c conda-forge poetry
 
 More info is
 [here.](https://raw.githubusercontent.com/python-poetry/poetry/master/install)
+
+## Quick start
+
+- local install
+
+```bash
+git clone https://github.com/SARDONYX-sard/python-template;
+poetry install;
+python-template/.venv/Scripts/activate;
+pre-commit install;
+pre-commit install --hook-type commit-msg;
+poetry run python src/main.py
+```
+
+- with Docker
+
+```bash
+git clone https://github.com/SARDONYX-sard/python-template;
+docker-compose up -d --build; # or make dc-build
+poetry run python src/main.py
+```
 
 ## Make usage
 
