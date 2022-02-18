@@ -1,2 +1,13 @@
 [general]
 contrib=contrib-title-conventional-commits
+ignore=body-is-missing,T3
+
+[ignore-by-body]
+# Match commits message bodies that have a line that contains 'release'
+regex=(.*)
+ignore=all
+
+[ignore-by-author-name]
+# Match commits by author name (e.g. ignore all rules when a commit is made by dependabot)
+regex=dependabot
+ignore=all
